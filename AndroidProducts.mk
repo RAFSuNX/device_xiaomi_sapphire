@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/droidx_sapphire.mk
+    $(LOCAL_DIR)/superior_sapphire.mk

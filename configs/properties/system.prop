@@ -87,8 +87,3 @@ ro.hardware.wlan.vendor=qcom
 ro.hardware.wlan.chip=wcn3988
 
 
-
-# DroidX-UI
-ro.droidx.maintainer=RAFSuNX
-ro.droidx.chipset=snapdragon 685
-ro.droidx.display_resolution=6.67" AMOLED 1080x2400
