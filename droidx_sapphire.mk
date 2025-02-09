@@ -12,19 +12,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/sapphire/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
 
 # Include our private certificate
--include vendor/lineage-priv/keys/keys.mk
+include vendor/lineage-priv/keys/keys.mk
 
-# Gapps
-include vendor/gapps/arm64/arm64-vendor.mk
+#DroidX-UI stuff
+DROIDX_BUILD_TYPE := UNOFFICIAL
+DROIDX_GAPPS := true
 
 # Device configs
 TARGET_BOOT_ANIMATION_RES = 1080
 TARGET_HAS_UDFPS := true
 
-PRODUCT_NAME := lineage_sapphire
+PRODUCT_NAME := droidx_sapphire
 PRODUCT_DEVICE := sapphire
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
