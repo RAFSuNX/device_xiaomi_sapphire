@@ -46,14 +46,14 @@ PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-im
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     TrebuchetQuickStep \
     Settings \
-    SystemUI    
-    Launcher3 \    
+    SystemUI \
+    Launcher3 \
     SystemUIGo \
-    QuickSearchBox \    
+    QuickSearchBox \
     DocumentsUI \
-    Dialer \    
+    Dialer \
     Contacts \
-    Messaging \    
+    Messaging \
     PhoneCommon
     
 # ART
