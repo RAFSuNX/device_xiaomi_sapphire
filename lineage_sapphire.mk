@@ -17,8 +17,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Include our private certificate
 -include vendor/lineage-priv/keys/keys.mk
 
-# Gapps
-include vendor/gapps/arm64/arm64-vendor.mk
+#Java
+SYSTEM_OPTIMIZE_JAVA := true
+SYSTEMUI_OPTIMIZE_JAVA := true
 
 # Device configs
 TARGET_BOOT_ANIMATION_RES = 1080
